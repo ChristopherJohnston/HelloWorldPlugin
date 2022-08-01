@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug in AudioPluginHost",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${env:JUCE_FRAMEWORK_PATH}/extras/AudioPluginHost/Builds/MacOSX/build/Debug/AudioPluginHost.app",
+            "args": ["${workspaceFolder}/${workspaceFolderBasename}.filtergraph"],
+            "stopAtEntry": false,
+            "cwd": "${env:JUCE_FRAMEWORK_PATH}",
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build Debug",
+        }
+    ]
+}

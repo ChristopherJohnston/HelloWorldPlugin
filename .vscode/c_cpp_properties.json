@@ -1,0 +1,18 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "JUCE",
+            "intelliSenseMode": "macos-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/JuceLibraryCode",
+                "${env:JUCE_FRAMEWORK_PATH}/modules"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/JuceLibraryCode/JucePluginDefines.h"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ]
+}
